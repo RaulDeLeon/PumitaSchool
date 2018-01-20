@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="ganlensystems.icloud.com.pumitascool_10.Fragment_Contacto">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+
+            <ImageView
+                android:src="@drawable/ganlen_blanco"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/raul"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlanco" android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/david"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlanco" android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/fernando"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlanco" android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/efrain"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlanco" android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/dulce"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlanco" android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/bryan"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlanco" android:textSize="16sp"/>
+
+            <TextView
+                android:text="@string/website"
+                android:id="@+id/website_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlanco"                 android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"/>
+            <TextView
+                android:text="@string/email"
+                android:id="@+id/email_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlanco"                 android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:autoLink="email"/>
+            <TextView
+                android:text="@string/phone_number"
+                android:id="@+id/mobile_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:autoLink="phone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="50dp"                android:text="@string/copyright"
+                android:textAlignment="center" android:textSize="16sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+

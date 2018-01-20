@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                android:background="@color/AZULNEW"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/divider"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/divider">
+
+
+        <EditText
+            android:id="@+id/nombreEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:ems="10"
+            android:layout_marginTop="180dp"
+            android:hint="Nombre Completo" android:inputType="textPersonName"
+            android:textColor="@color/colorBlanco" android:textColorHint="@color/colorBlanco"/>
+        <EditText
+            android:id="@+id/carreraEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true" android:layout_below="@+id/nombreEditText"
+            android:ems="10" android:hint="Carrera"
+            android:inputType="textPersonName" android:singleLine="true"
+            android:textColor="@color/colorBlanco" android:textColorHint="@color/colorBlanco"/>
+        <EditText
+            android:id="@+id/edadEditText"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:layout_below="@+id/carreraEditText" android:ems="10"
+            android:hint="Edad" android:inputType="numberDecimal"
+            android:singleLine="true" android:textColor="@color/colorBlanco"
+            android:textColorHint="@color/colorBlanco"/>
+        <EditText
+            android:id="@+id/generoEditText"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addButton"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ems="10" android:hint="Género"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@color/colorBlanco"
+            android:textColorHint="@color/colorBlanco"/>
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edadEditText"
+            android:layout_centerHorizontal="true" android:background="@color/Verde_Espacial"
+            android:onClick="btnAddOnClick" android:text="Enviar"
+            android:textColor="@color/colorBlanco"/>
+        <ImageView
+            android:id="@+id/imageView11"
+            android:src="@drawable/unamazul"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

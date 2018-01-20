@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ganlensystems.icloud.com.pumitascool_10.registro_negocio_final">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp" android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" tools:layout_editor_absoluteX="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+            <TextView
+                android:id="@+id/TV_Nombre_Negocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="Nombre del Negocio"/>
+            <EditText
+                android:id="@+id/ET_Nombre_Negocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese el nombre de su negocio"
+                android:inputType="textPersonName" android:singleLine="true"/>
+            <TextView
+                android:id="@+id/TV_Direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="Dirección"/>
+            <EditText
+                android:id="@+id/ED_DirNegocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese la dirección de su negocio "
+                android:inputType="textPostalAddress" android:singleLine="true"/>
+            <TextView
+                android:id="@+id/TV_VentasAprox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ventas"/>
+            <EditText
+                android:id="@+id/ET_VentasAprox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Aprox. ventas mensuales"
+                android:inputType="number" android:singleLine="true"/>
+            <TextView
+                android:id="@+id/TV_ProductoServicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto o Servicio"/>
+            <EditText
+                android:id="@+id/ET_ProductoServicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese producto o servicio que brinde"
+                android:inputType="text"
+            />
+            <TextView
+                android:id="@+id/TV_Horario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario"/>
+            <EditText
+                android:id="@+id/ET_Horario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese el horario de su negocio"
+                android:inputType="text|number" android:singleLine="true"/>
+            <TextView
+                android:id="@+id/TV_TipoNegocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de negocio"/>
+            <EditText
+                android:id="@+id/ET_TipoNegocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese su tipo de negocio"
+                android:inputType="text" android:singleLine="true"/>
+            <TextView
+                android:id="@+id/TV_Descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción"/>
+            <EditText
+                android:id="@+id/ET_Descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+                android:hint="Ingrese descripción de su negocio"
+                android:inputType="text|textPersonName"/>
+            <Button
+                android:id="@+id/EnviarNegocio_Firebase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_registro_login"
+                android:text="Terminar"
+                android:textColor="@color/colorBlanco"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

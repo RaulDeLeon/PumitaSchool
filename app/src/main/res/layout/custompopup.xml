@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    app:cardCornerRadius="4dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="315dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtImageName"
+
+        android:hint="Descripción de Promoción"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/degradado_azul"
+        android:textColor="@color/colorBlanco"
+        android:onClick="btnBrowse_Click"
+        android:text="Imagen a subir"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/degradado_azul"
+        android:onClick="btnUpload_Click"
+        android:text="Publicar Promoción"
+        android:layout_marginTop="10dp"
+
+        android:textColor="@color/colorBlanco"/>
+
+
+    <!--<Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlanco"
+        android:background="@drawable/degradado_azul"
+        android:onClick="btnShowListImage_Click"
+        android:text="Mostrar" />-->
+
+
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

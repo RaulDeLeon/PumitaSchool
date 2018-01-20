@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">PumitaSchool</string>
+    <string name="I_BienvenidoIngresar">Ingresa Ahora</string>
+    <string name="I_RegistroAlumno">Registro Alumno</string>
+
+    <string name="I_Email">Introduce tu email</string>
+    <string name="I_Pass">Introduce tu contraseña</string>
+    <string name="TV_Email">Correo electrónico</string>
+    <string name="TV_Pass">Contraseña</string>
+    <string name="I_Ingresa">Ingresar</string>
+    <string name="Recuperar">¿Olvidaste tu constraseña?</string>
+    <string name="Cuenta_Alumno">Crear Cuenta</string>
+    <string name="Cuenta_Negocio">Crea una cuenta Negocio</string>
+    <string name="Continuar">Continuar</string>
+    <string name="NCompleto">Nombre Completo</string>
+    <string name="title_activity_registro_alumno_inicio">registro_alumno_inicio</string>
+    <string name="title_activity_registro_alumno_final">registro_alumno_final</string>
+
+    <string-array name="Facultades">
+        <item>Facultad de Arquitectura</item>
+        <item>Facultad de Artes y Diseño</item>
+        <item>Facultad de Ciencias</item>
+        <item>Facultad de Ciencias Políticas y Sociales</item>
+        <item>Facultad de Contaduría y Administración</item>
+        <item>Facultad de Derecho</item>
+        <item>Facultad de Economía</item>
+        <item>Facultad de Filosofía y Letras</item>
+        <item>Facultad de Ingeniería</item>
+        <item>Facultad de Medicina</item>
+        <item>Facultad de Medicina Veterinaria y Zootecnia</item>
+        <item>Facultad de Música</item>
+        <item>Facultad de Odontología</item>
+        <item>Facultad de Psicología</item>
+        <item>Facultad de Química</item>
+
+
+    </string-array>
+
+    <string name="title_activity_principal">principal</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_registro_negocio_inicio">activity_registro_negocio_inicio</string>
+    <string name="title_activity_registro_negocio_final">registro_negocio_final</string>
+    <string name="title_activity_recuperar_password">Recuperar Contraseña</string>
+    <string name="title_activity_recuperar_contraseña">Recuperar Contraseña</string>
+    <string name="title_activity_Registro_Alumno">Crear Cuenta Alumno</string>
+    <string name="title_activity_Registro_Negocio">Crear Cuenta Negocio</string>
+    <string name="title_activity_navegacion_principal">navegacion_principal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="text_favorites">Favorites</string>
+    <string name="text_schedules">Schedules</string>
+    <string name="text_music">Music</string>
+    <string name="Mensajeria">Mensajería</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Mensajería">Mensajes</string>
+    <string name="Mapa">Mapa</string>
+    <string name="perfil">Perfil</string>
+
+
+    //SLIDES
+    <string name="tit1">EXPLORA</string>
+    <string name="desc1">Encuentra un lugar asombroso para comer o entretenerte cerca de tu
+        universidad con las mejores promociones y precios.
+    </string>
+
+    <string name="tit2">¿PERDIDO? CON PUMITASCOOL ESTO NUNCA PASARÁ</string>
+    <string name="desc2">Utilizamos tu ubicación y te decimos toda la información
+        referente a tu campus.
+    </string>
+
+    <string name="tit3">TE ENCATARÁN NUESTRAS RECOMENDACIONES</string>
+    <string name="desc3">Podrás recibir las mejores recomendaciones de la caracola mágica.</string>
+
+    <string name="tit4">ENCUENTRA EL MEJOR LUGAR PARA ALOJARTE</string>
+    <string name="desc4">Sabemos que muchas personas vienen de otros estados, no te preocupes que
+        nosotros te decimos dónde alojarte a los mejores precios.
+    </string>
+
+    <string name="tit5">TODO ESTO Y MÁS</string>
+    <string name="desc5">Bienvenido</string>
+
+    <string name="omite">Skip</string>
+
+    <string name="my_prefer">"ganlensystems.icloud.com.MyPref."</string>
+
+    <string name="my_prefer_key">"ganlensystems.icloud.com.MyPrefKey"</string>
+
+    /////////////////////////////////////////////////////////////////////////////////////
+
+    <string name="facebook_app_id">149035275855742</string>
+    <string name="fb_login_protocol_scheme">fb149035275855742</string>
+
+
+    <string name="cancelar_login">Cancelado</string>
+    <string name="error_login">Ocurrió Un Error Intenta De Nuevo</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+    <string name="title_activity_clasificacion">Clasificacion</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">PumitaScool</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Strings for activity acerca de-->
+    <string name="raul">Raúl De León</string>
+    <string name="david">David Quintero</string>
+    <string name="efrain">Efraín Lira</string>
+    <string name="dulce">Dulce Paz</string>
+    <string name="fernando">Fernando Veladiz Gómez</string>
+    <string name="bryan">Bryan Rodríguez</string>
+    <string name="copyright">© Copyright 2017 Ganlen Systems</string>
+    <!--Strings for activity contacto-->
+    <string name="website">ganlensystems.github.io</string>
+    <string name="email">ganlensystems@icloud.com</string>
+    <string name="phone_number">5527301215</string>
+    <!--section news-->
+    <string name="title_unam">UNAM - Universidad Autonoma de México</string>
+    -------------------------------------------------------------------------
+    <string name="action_add">Agregar nuevo</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_open_in_external">Abrir Enlace</string>
+    <string name="action_bar_subtitle_showing_all">Todas las páginas guardadas</string>
+    <string name="one_search_result">Un resultado de búsqueda</string>
+    <string name="no_search_results">No hay resultados de búsqueda</string>
+    <string name="num_search_results">Resultados de la búsqueda</string>
+</resources>

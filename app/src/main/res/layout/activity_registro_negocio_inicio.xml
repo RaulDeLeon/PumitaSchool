@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AZUL"
+    tools:context="ganlensystems.icloud.com.pumitascool_10.registro_negocio_inicio">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/TV_IngresaBienvenida"
+                android:textColor="@color/Verde_Espacial"
+                android:layout_width="match_parent"
+                android:text="Registro Socio"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+            />
+
+            <EditText
+                android:id="@+id/ET_EmailNegocioRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/TV_Email"
+                android:textColorHint="@color/colorBlanco"
+                android:inputType="textEmailAddress" android:textColor="@color/colorBlanco"/>
+            <EditText
+                android:id="@+id/ET_PassNegocioRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/TV_Pass"
+                android:textColorHint="@color/colorBlanco"
+
+                android:inputType="numberPassword" android:textColor="@color/colorBlanco"/>
+
+            <Button
+                android:id="@+id/BTN_RegistroAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_registro_login"
+                android:text="@string/Continuar"
+                android:onClick="BTN_Registro_Negocio_Click"
+                android:textColor="@color/colorBlanco" tools:ignore="OnClick"/>
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="179dp" android:layout_height="159dp"
+            app:srcCompat="@drawable/business_yellow"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.011" android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp" app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"/>
+        <TextView
+            android:id="@+id/TV_MINegocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            android:text="Mi Negocio"
+            android:textColor="@color/colorBlanco"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.198"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.widget.CoordinatorLayout>

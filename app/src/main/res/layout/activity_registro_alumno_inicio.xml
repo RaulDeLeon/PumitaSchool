@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/AZULNEW">
+
+    <ImageView
+        android:background="@drawable/unamazul"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/TV_ShowWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/I_RegistroAlumno"
+        android:textAlignment="center"
+        android:textColor="@color/Verde_Espacial"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/ET_EmailAlumnoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/TV_Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorBlanco"
+        android:textColorHint="@color/colorBlanco"/>
+    <EditText
+        android:id="@+id/ET_PassAlumnoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/TV_Pass"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlanco"
+        android:textColorHint="@color/colorBlanco"/>
+    <Button
+        android:id="@+id/BTN_RegistroAlumno"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:background="@color/Verde_Espacial"
+        android:elevation="10sp"
+        android:onClick="BTN_Registro_Alumno_Click"
+        android:text="Registrar"
+        android:textColor="@color/colorBlanco"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
+

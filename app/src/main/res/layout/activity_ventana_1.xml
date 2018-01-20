@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/circle"
+        android:rotation="180"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginTop="59dp"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:src="@drawable/cinema"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/food"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="190dp"
+        android:src="@drawable/party"
+        tools:ignore="ContentDescription"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit1"
+            android:textSize="24sp"
+            android:layout_marginTop="110dp"
+            android:textColor="@android:color/background_dark"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/desc1"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+</RelativeLayout>

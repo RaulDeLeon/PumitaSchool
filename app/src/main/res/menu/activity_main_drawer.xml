@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Noticias"
+            android:icon="@drawable/ic_news"
+
+            android:title="Noticias"/>
+        <item android:id="@+id/UNAMOffline"
+              android:icon="@drawable/unamoffline"
+              android:title="UNAM Offline"/>
+        <item
+            android:id="@+id/Negocios"
+            android:icon="@drawable/ic_negocio"
+            android:title="Negocios"/>
+        <item
+            android:id="@+id/Mapa"
+            android:icon="@drawable/ic_satellite_mapa"
+            android:title="Mapa Ciudad Universitaria"/>
+        <item
+            android:id="@+id/Agregar"
+            android:icon="@drawable/ic_agregar"
+            android:title="Agregar Negocio"/>
+        <item
+            android:id="@+id/Promociones"
+            android:icon="@drawable/ic_money"
+            android:title="Promociones"/>
+
+    </group>
+     <item android:title="">
+    <item android:title="">
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/Acerca"
+                android:icon="@drawable/ic_acerca_de"
+                android:title="Acerca De"/>
+        </menu>
+    </item>  </item>  </item>
+    <item
+
+        android:id="@+id/CerrarSesion"
+        android:icon="@drawable/ic_cerrar"
+        android:title="Cerrar Sesión"/>
+
+
+</menu>
