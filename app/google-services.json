@@ -1,0 +1,247 @@
+{
+  "project_info": {
+    "project_number": "47581599912",
+    "firebase_url": "https://pumitascool.firebaseio.com",
+    "project_id": "pumitascool",
+    "storage_bucket": "pumitascool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47581599912:android:f7ec914c24bac3b2",
+        "android_client_info": {
+          "package_name": "ganlensystems.icloud.com.pumitascool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47581599912-bn402s3gtjvhv81sb2mpqb6hd5co6lj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ganlensystems.icloud.com.pumitascool",
+            "certificate_hash": "f7b7971ee851d266aa7189e75fa4de69647a4d45"
+          }
+        },
+        {
+          "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj0Ey-hLfjdi8pSVYcRBA6se70HezDeRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47581599912:android:dd7603d618705c97",
+        "android_client_info": {
+          "package_name": "ganlensystems.icloud.com.pumitascool_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47581599912-ahshivm4s2rpjuek61q09arh1d6auvni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ganlensystems.icloud.com.pumitascool_10",
+            "certificate_hash": "f7b7971ee851d266aa7189e75fa4de69647a4d45"
+          }
+        },
+        {
+          "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj0Ey-hLfjdi8pSVYcRBA6se70HezDeRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47581599912:android:8a5bd6f4566e4255",
+        "android_client_info": {
+          "package_name": "ingeniumbd.com.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47581599912-3u7uh5m7jkpb17924tcfnsnkb2c4qpar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ingeniumbd.com.firebaseapp",
+            "certificate_hash": "f7b7971ee851d266aa7189e75fa4de69647a4d45"
+          }
+        },
+        {
+          "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj0Ey-hLfjdi8pSVYcRBA6se70HezDeRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47581599912:android:4ed627973950eead",
+        "android_client_info": {
+          "package_name": "ganlensystems.icloud.com.tu_negocio_unam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47581599912-hvq4jkl49qhhp64gutr3fpigmudmge19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ganlensystems.icloud.com.tu_negocio_unam",
+            "certificate_hash": "f7b7971ee851d266aa7189e75fa4de69647a4d45"
+          }
+        },
+        {
+          "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj0Ey-hLfjdi8pSVYcRBA6se70HezDeRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47581599912:android:0abe8e928f888340",
+        "android_client_info": {
+          "package_name": "com.icloud.ganlensystems.pumitaschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47581599912-m1unk6ljhnjfqfo6l1ask97des19e7nl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icloud.ganlensystems.pumitaschool",
+            "certificate_hash": "ad95fc96f1912cd99ebfb32693c4fb4c8773031d"
+          }
+        },
+        {
+          "client_id": "47581599912-6q3hvbu82jg80jvjev65bopq3an1fg1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icloud.ganlensystems.pumitaschool",
+            "certificate_hash": "f7b7971ee851d266aa7189e75fa4de69647a4d45"
+          }
+        },
+        {
+          "client_id": "47581599912-mdp77ajqd4jvq2jmif6cqsmtr2meg6m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icloud.ganlensystems.pumitaschool",
+            "certificate_hash": "b150706a4530f9c75e4181772e6c91365aa64014"
+          }
+        },
+        {
+          "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj0Ey-hLfjdi8pSVYcRBA6se70HezDeRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47581599912-ol9ld3og8ugg4jqkiqttqft445tman8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
