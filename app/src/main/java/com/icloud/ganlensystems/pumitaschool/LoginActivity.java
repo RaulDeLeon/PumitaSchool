@@ -83,9 +83,6 @@ public class LoginActivity extends AppCompatActivity {
                         String enumPost = null;
                         TextView postDescription = (TextView) findViewById(R.id.post_description);
 
-                        Log.i("fbData", graphResponse.getJSONObject().toString());
-                        Log.i("responseFb", graphResponse.getRawResponse().toString());
-
                         try {
                             JSONObject json = graphResponse.getJSONObject();
                             JSONArray jarray = json.getJSONArray("data");

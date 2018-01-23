@@ -115,10 +115,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     this, R.raw.style_json));
 
             if (!success) {
-                Log.e(TAG, "Style parsing failed.");
             }
         } catch (Resources.NotFoundException e) {
-            Log.e(TAG, "Can't find style. Error: ", e);
         }
 
 
