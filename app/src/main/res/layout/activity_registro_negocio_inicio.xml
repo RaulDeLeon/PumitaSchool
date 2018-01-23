@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/AZUL"
-    tools:context="ganlensystems.icloud.com.pumitascool_10.registro_negocio_inicio">
+    tools:context="com.icloud.ganlensystems.pumitaschool.registro_negocio_inicio">
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

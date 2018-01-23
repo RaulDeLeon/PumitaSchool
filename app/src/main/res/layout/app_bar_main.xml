@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ganlensystems.icloud.com.pumitascool_10.MainActivity">
+    tools:context="com.icloud.ganlensystems.pumitaschool.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

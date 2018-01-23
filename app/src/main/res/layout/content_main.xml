@@ -11,7 +11,7 @@
                 android:background="@drawable/degradado_dorado"
 
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ganlensystems.icloud.com.pumitascool_10.MainActivity"
+    tools:context="com.icloud.ganlensystems.pumitaschool.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <FrameLayout

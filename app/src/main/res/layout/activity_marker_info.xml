@@ -5,7 +5,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context="ganlensystems.icloud.com.pumitascool_10.MarkerInfo">
+              tools:context="com.icloud.ganlensystems.pumitaschool.MarkerInfo">
 
     <ImageView
         android:id="@+id/image_place_text_view"

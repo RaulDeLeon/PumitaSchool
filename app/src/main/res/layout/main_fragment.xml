@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
              android:id="@+id/content_frame"
-    tools:context="ganlensystems.icloud.com.pumitascool_10.MainActivity">
+    tools:context="com.icloud.ganlensystems.pumitaschool.MainActivity">
     <!--android:background="@drawable/social_prototipo"-->
 
 
