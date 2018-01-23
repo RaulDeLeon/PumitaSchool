@@ -194,10 +194,10 @@ public class MainActivity extends AppCompatActivity
             }
             fragment = new MapaCU();
 
-        } else if (id == R.id.Agregar) {
+        } /*else if (id == R.id.Agregar) {
             Intent i = new Intent(MainActivity.this, WS_Negocio.class);
             startActivity(i);
-        } else if (id == R.id.Promociones) {
+        } */else if (id == R.id.Promociones) {
             Intent i = new Intent(MainActivity.this, Image_List.class);
             startActivity(i);
 
