@@ -66,11 +66,6 @@ public class FinalRegistroAlumno extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
             return;
         }
-        if(!Double.isNaN(edad))
-        {
-            Toast.makeText(getApplicationContext(), "Este campo no puede estar vacío",
-                    Toast.LENGTH_SHORT).show();
-            return;        }
 
         if (TextUtils.isEmpty(carrera)) {
             Toast.makeText(getApplicationContext(), "Este campo no puede estar vacío",
@@ -85,8 +80,8 @@ public class FinalRegistroAlumno extends AppCompatActivity {
 
         updateDatabase(user);
         AlertDialog alertDialog = new AlertDialog.Builder(FinalRegistroAlumno.this).create();
-        alertDialog.setTitle("Univerdad Autónoma De México");
-        alertDialog.setMessage("Te damos la más coordial bienvenida esperemos qué está app sea de tú agrado");
+        alertDialog.setTitle("Universidad Autónoma De México");
+        alertDialog.setMessage("Te damos la más coordial bienvenida esperemos que esta app sea de tú agrado.");
         alertDialog.setIcon(R.drawable.ic_check_circle_green_500_24dp);
 
         alertDialog.setButton("OK", new DialogInterface.OnClickListener() {

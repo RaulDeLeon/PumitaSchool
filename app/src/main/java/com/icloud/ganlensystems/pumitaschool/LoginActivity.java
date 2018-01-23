@@ -129,7 +129,7 @@ public class LoginActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
 
         builder.setTitle("Alerta");
-        builder.setMessage("Necesitas iniciar sesión en facebook para poder usar La sección de noticias.");
+        builder.setMessage("Necesitas iniciar sesión en Facebook para poder usar la sección de noticias.");
 
         builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
@@ -148,7 +148,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     @Override
                     public void onError(FacebookException error) {
-                        Toast.makeText(LoginActivity.this, "Error al iniciar facebook", Toast.LENGTH_LONG).show();
+                        Toast.makeText(LoginActivity.this, "Error al iniciar Facebook", Toast.LENGTH_LONG).show();
                     }
                 });
             }

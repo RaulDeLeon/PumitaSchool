@@ -22,6 +22,20 @@
                 android:scaleType="centerInside"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:scaleType="centerInside"
+                      android:text="Nuestro Objetivo"
+                      android:textAlignment="center"
+
+                      android:textStyle="bold"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorBlanco"
+
+                      android:text="Facilitar la vida de las personas en todas las industrias mediante innovadores productos de software cloud computing de alta calidad para así también reducir la brecha tecnológica en los países de América Latina y países de tercer mundo."/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -74,38 +88,22 @@
 
             <TextView
                 android:text="@string/website"
+                android:backgroundTint="@color/colorBlanco"
                 android:id="@+id/website_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textColor="@color/colorBlanco"                 android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:autoLink="web"/>
-            <TextView
-                android:text="@string/email"
-                android:id="@+id/email_text_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textColor="@color/colorBlanco"                 android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:autoLink="email"/>
-            <TextView
-                android:text="@string/phone_number"
-                android:id="@+id/mobile_text_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textColor="@color/colorBlanco"
+                android:textColor="@color/Gris"
                 android:textSize="16sp"
                 android:layout_marginBottom="8dp"
-                android:autoLink="phone"/>
+               />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="8dp"
-                android:layout_marginTop="50dp"                android:text="@string/copyright"
+                android:layout_marginTop="20dp"
+                android:text="@string/copyright"
                 android:textAlignment="center" android:textSize="16sp"/>
         </LinearLayout>
     </ScrollView>
