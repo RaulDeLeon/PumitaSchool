@@ -4,6 +4,9 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -17,6 +20,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Base64;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -40,6 +44,8 @@ import com.icloud.ganlensystems.pumitaschool.Objects.Posts;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -258,7 +264,7 @@ public class MainActivity extends AppCompatActivity
 
                     @Override
                     public void onError(FacebookException error) {
-                        Toast.makeText(MainActivity.this, "Error en el inicio de Facebook", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Error al inciar facebook", Toast.LENGTH_LONG).show();
                     }
                 });
             }
