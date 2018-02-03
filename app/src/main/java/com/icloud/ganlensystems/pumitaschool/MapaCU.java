@@ -31,7 +31,7 @@ public class MapaCU extends Fragment {
         View v = inflater.inflate(R.layout.fragment_mapa_cu, container, false);
 
         PhotoView photoView = (PhotoView) v.findViewById(R.id.photo_view);
-        photoView.setImageResource(R.drawable.mapa_unam);
+        photoView.setImageResource(R.drawable.calendar);
         return v;
 
     }
