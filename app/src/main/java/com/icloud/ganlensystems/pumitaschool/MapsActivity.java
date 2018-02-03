@@ -147,7 +147,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         CircleOptions circleMarker = new CircleOptions()
                 .center(new LatLng(latitude, longitude))
                 .radius(10)
-                .strokeWidth(15)
+                .strokeWidth(12)
                 .strokeColor(Color.YELLOW)
                 .fillColor(Color.argb(255, 0, 0, 0));
         return circleMarker;
