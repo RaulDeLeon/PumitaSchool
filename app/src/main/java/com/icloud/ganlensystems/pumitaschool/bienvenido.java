@@ -106,7 +106,6 @@ public class bienvenido extends AppCompatActivity {
         Ingresa_Alumno_Firebase.setTypeface(helvetica);
         txtRegistroAlumno = findViewById(R.id.TV_Registro_Alumno);
         txtRegistroAlumno.setTypeface(helvetica);
-
         txtRecuperarContraseña = findViewById(R.id.TV_RecuperarContraseña);
         txtRecuperarContraseña.setOnClickListener(new View.OnClickListener()
 
